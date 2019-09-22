@@ -18,13 +18,11 @@ def get_r(n):
 	
 	r = Decimal(2)
 	
-	#for (r=2; nextR and r < maxr; r++;):
 	while (nextR and (r < maxr)):
 		nextR = False
 		
 		k = Decimal(1)
 		
-		#for (k = 1; (not nextR and k <= maxk); k++;):
 		while (not nextR and k <= maxk):
 			nextR = (pow(n, k, r) in [0, 1])
 			
