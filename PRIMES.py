@@ -227,7 +227,7 @@ def fasterfactor(n):
 	
 	return factors
 
-
-#n = Decimal(input())
-#getcontext().prec = 2*len(str(n))
-#print(sieve_prime_check(n))
+if __name__ == '__main__':
+	n = Decimal(input())
+	getcontext().prec = 2*len(str(n))
+	print("prime" if sieve_prime_check(n) else "composite")
