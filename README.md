@@ -1,2 +1,2 @@
 # AKS
-Implementation of the AKS Primality check and a few other number theoretic functions
+Implementation of the AKS Primality test and a few other number theoretic functions
